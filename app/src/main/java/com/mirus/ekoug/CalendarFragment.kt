@@ -1,6 +1,7 @@
 package com.mirus.ekoug
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -46,7 +47,7 @@ class CalendarFragment : Fragment() {
             for(res in it){
                 val name = res.getString("название").toString()
                 val date = res.getString("время").toString()
-
+                Log.d("test", "Name: $name, date: $date")
             }
 
         }
