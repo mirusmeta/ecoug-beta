@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "125579264330",
+    "project_id": "ecodon-a2b5b",
+    "storage_bucket": "ecodon-a2b5b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125579264330:android:3de876340319ca0b7941b3",
+        "android_client_info": {
+          "package_name": "com.mirus.ekoug"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs5xCwRGXtmX6L_n4EsmgbdDhytWD7FFw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
