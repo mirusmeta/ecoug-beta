@@ -98,8 +98,7 @@ If you have ideas or suggestions, feel free to open an issue or submit a pull re
 Для вопросов и предложений: [infodevmirus@gmail.com](mailto:infodevmirus@gmail.com)  
 
 **English** 🇬🇧:  
-For questions and feedback: [ecohelp@yug.ru](mailto:ecohelp@yug.ru)  
-
----  
+For questions and feedback: [infodevmirus@gmail.com](mailto:infodevmirus@gmail.com)  
+  
 
 🌿 **Спасибо за ваш вклад в защиту окружающей среды с ЭкоЮг! / Thank you for contributing to environmental protection with EcoYug!** 🌍
