@@ -37,6 +37,8 @@ android {
 }
 
 dependencies {
+    implementation("org.jsoup:jsoup:1.15.4")
+    implementation("com.squareup.picasso:picasso:2.8")
     implementation(libs.play.services.maps)
     implementation(libs.play.services.location)
     implementation(libs.glide)
