@@ -20,7 +20,7 @@ class DashboardActivity : AppCompatActivity() {
 
         val legitHere = intent.getIntExtra("cg", 404) == 512
         if(!legitHere){
-            Log.e("dashboard-activity", "Попытка взлома!")
+            Log.e("eco-ug", "Попытка взлома!")
             startActivity(Intent(this, WelcomeActivity::class.java))
         }
 
@@ -29,7 +29,7 @@ class DashboardActivity : AppCompatActivity() {
         val dispatcher = onBackPressedDispatcher
         dispatcher.addCallback(this, object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {
-                Log.e("dashboard-activity","Попытка нажатия кнопки назад")
+                Log.e("eco-ug","Попытка нажатия кнопки назад")
             }
         })
     }
