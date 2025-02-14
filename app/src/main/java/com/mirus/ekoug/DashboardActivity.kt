@@ -65,7 +65,6 @@ class DashboardActivity : AppCompatActivity() {
         val transaction = supportFragmentManager.beginTransaction()
 
         if (itemId > currentFragmentId) {
-            // Анимация слева направо (вперёд)
             transaction.setCustomAnimations(
                 R.anim.slide_in_right,  // Входящий фрагмент
                 R.anim.slide_out_left,  // Исходящий фрагмент
@@ -73,7 +72,6 @@ class DashboardActivity : AppCompatActivity() {
                 R.anim.slide_out_right  // Уходящий при возврате
             )
         } else if (itemId < currentFragmentId) {
-            // Анимация справа налево (назад)
             transaction.setCustomAnimations(
                 R.anim.slide_in_left,
                 R.anim.slide_out_right,
