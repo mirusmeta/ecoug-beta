@@ -32,7 +32,7 @@ class WelcomeActivity : AppCompatActivity() {
         val dispatcher = onBackPressedDispatcher
         dispatcher.addCallback(this, object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {
-                Log.e("welcome-activity","Попытка нажатия кнопки назад")
+                Log.e("ecoug-app","Попытка нажатия кнопки назад")
             }
         })
 
@@ -52,7 +52,7 @@ class WelcomeActivity : AppCompatActivity() {
 
             }
             else -> {
-                Log.e("welcome-activity", "Хорошая попытка, жаль провальная!)")
+                Log.e("ecoug-app", "Хорошая попытка, жаль провальная!)")
 
             }
         }

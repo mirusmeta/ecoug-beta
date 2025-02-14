@@ -56,7 +56,7 @@ class StatesFragment : Fragment() {
                 val category = item.select("category").text() // Получаем категорию
 
                 // Фильтруем только новости по экологии
-                if (category.lowercase().contains("эколог", ignoreCase = true) || category.lowercase().contains("природ", ignoreCase = true)) {
+                if (category.lowercase().contains("экол", ignoreCase = true) || category.lowercase().contains("природ", ignoreCase = true)) {
                     newsList.add(NewsItem(title, link, imageUrl, pubDate))
                 }
             }
